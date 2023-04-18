@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: open sans
+}
+.wrapper .sidenav{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 20vm;
+  height: 100vh;
+  background: #797979;
+}
+.wrapper .sidenav h1{
+  color: #fff;
+  text-align: center;
+  line-height: 90px;
+  border-bottom: 1px dotted white;
+}
+.wrapper .sidenav ul li{
+  list-style: none;
+  padding: 15px;
+
+.wrapper .main-content{
+  width: 80vw;
+  margin-left: 20vw;
+}

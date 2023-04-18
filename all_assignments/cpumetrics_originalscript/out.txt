@@ -1,0 +1,3 @@
+SLAVE_HOST_NAME, SLAVE_DATE_TIME, SLAVE_CPU_USAGE (%), SLAVE_MEMORY_USAGE (%), SLAVE_DISK_USAGE (%)
+devopsminion, Tuesday 04 April 2023 04:31:04 PM IST, 0, 21.9241, 1
+CPU and MEMORY are in optimize condition

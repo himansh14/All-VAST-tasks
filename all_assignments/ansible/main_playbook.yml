@@ -1,0 +1,47 @@
+---
+- hosts: server1 
+  user: himanshuw
+  become: yes
+  tasks:
+       #######Install-Postfix#######
+  - name: Postfix package installation
+    apt:
+     name: postfix
+     state: present
+  - name: Ensure postfix service is running
+    service:
+     name: postfix 
+     state: started
+  - name: Enable postfix on System Boot
+    service:
+     name: postfix
+     enabled: yes
+       #######Install-Git#######
+  - name: Git package installation
+    apt:
+     name: git 
+     state: present
+     update_cache: yes
+       #######Install-JDK#######
+  - name: Update APT package manager repositories cache
+    become: yes
+    apt:
+     update_cache: yes
+
+  - name: JDK package installation
+    become: yes 
+    apt:
+     name: openjdk-8-jdk
+     state: present
+       #######Install-tree#######
+  - name: apt update && apt install tree -y 
+    apt:
+      update_cache: yes
+      name: tree
+      state: present
+       #######Install-Nginx#######
+  - name: Nginx package installation
+    apt:
+     name: nginx
+     state: present
+

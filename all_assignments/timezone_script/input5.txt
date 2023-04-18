@@ -1,0 +1,7 @@
+               Local time: Tue 2023-04-04 17:58:08 AWST 
+           Universal time: Tue 2023-04-04 09:58:08 UTC  
+                 RTC time: Tue 2023-04-04 09:58:08      
+                Time zone: Australia/Perth (AWST, +0800)
+System clock synchronized: yes                          
+              NTP service: active                       
+          RTC in local TZ: no                           
